@@ -27,7 +27,8 @@ export const defaultMetadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://quora-mvp.vercel.app"),
+  // Use provided BASE_URL or fallback to localhost (removed former Vercel default)
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"),
   alternates: {
     canonical: "/",
   },

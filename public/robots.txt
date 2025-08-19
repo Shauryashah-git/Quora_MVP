@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://quora-mvp.vercel.app/sitemap.xml
+# Sitemap (set your production domain or keep localhost during development)
+Sitemap: http://localhost:3000/sitemap.xml
 
 # Crawl delay (optional)
 Crawl-delay: 1
