@@ -1,7 +1,5 @@
 # Quora MVP
 
-All Vercel & v0.app references removed. This README now targets manual or alternative hosting.
-
 ## Overview
 
 Quora MVP is a fast, modern Q&A platform clone built with **Next.js 14 (App Router)** and **TypeScript**, focused on clean UX, accessibility, security-minded defaults, and easy backend extensibility. It currently runs on mock in-memory data (questions, answers, users) that you can later swap for a real database (Supabase, Postgres, Prisma, etc.).
