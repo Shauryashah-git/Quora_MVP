@@ -187,5 +187,3 @@ pnpm build && pnpm start
 ## License
 Internal demo / educational use (adapt as needed for your project).
 
----
-Need a shorter tagline or badges re-added? Ask and we can tailor it.
